@@ -103,6 +103,6 @@ try:
         listdata=[year,month,date,hour,winddir,windrate,rain,tem,hum,atm]
         sheet.append_row(listdata)
         t=t+1
-        time.sleep(30)
+        time.sleep(300)
 except:
     pass
